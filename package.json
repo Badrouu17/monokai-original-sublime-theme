@@ -1,0 +1,40 @@
+{
+    "name": "monokai-original-sublime-theme",
+    "displayName": "monokai original sublime theme",
+    "description": "the original identical monokai theme that sublime editor has.",
+    "version": "1.0.0",
+    "publisher": "badrouu-laabed",
+    "license": "SEE LICENSE IN LICENSE.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Badrouu17/monokai-original-sublime-theme"
+    },
+    "keywords": [
+        "Theme",
+        "Dark Theme",
+        "monokai",
+        "monokai theme",
+        "sublime",
+        "sublime theme"
+    ],
+    "engines": {
+        "vscode": "^1.48.0"
+    },
+    "galleryBanner": {
+        "color": "#061526",
+        "theme": "dark"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "icon": "icon.png",
+    "contributes": {
+        "themes": [
+            {
+                "label": "monokai original sublime theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/monokai-original-sublime-theme.json"
+            }
+        ]
+    }
+}
